@@ -34,7 +34,8 @@ public class Exp_01 {
         element.sendKeys(search1);
         element.submit();
         Thread.sleep(3000);
-        Assert.assertTrue(driver.findElement(By.xpath("//*[@id='rso']/div[1]/div/div[1]/div/h3/a")).getText().toLowerCase().contains(search1));
+        Assert.assertTrue(driver.findElement(By.xpath("//*[@id='rso']/div[1]/div/div[1]/div/h3/a")).
+                getText().toLowerCase().contains(search1));
     }
 
     @AfterClass
