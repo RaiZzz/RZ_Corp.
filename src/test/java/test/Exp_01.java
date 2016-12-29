@@ -15,7 +15,8 @@ import org.testng.annotations.Test;
 public class Exp_01 {
     WebDriver driver;
     String baseUrl = "http://google.com/";
-    String search = "cat";
+    String search1 = "cat";
+    String search2 = "dog";
 
     @BeforeClass
     public void setUp()
@@ -30,10 +31,10 @@ public class Exp_01 {
         Thread.sleep(3000);
         WebElement element = driver.findElement(By.xpath("//*[@id='lst-ib']"));
         element.clear();
-        element.sendKeys(search);
+        element.sendKeys(search1);
         element.submit();
         Thread.sleep(3000);
-        Assert.assertTrue(driver.findElement(By.xpath("//*[@id='rso']/div[1]/div/div[1]/div/h3/a")).getText().toLowerCase().contains(search));
+        Assert.assertTrue(driver.findElement(By.xpath("//*[@id='rso']/div[1]/div/div[1]/div/h3/a")).getText().toLowerCase().contains(search1));
     }
 
     @AfterClass
