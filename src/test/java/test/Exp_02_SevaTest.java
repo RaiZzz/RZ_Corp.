@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 /**
  * Created by MadMax on 12/30/2016.
  */
-public class Exp_02 {
+public class Exp_02_SevaTest {
 
     WebDriver driver;
     String time = "0:10";

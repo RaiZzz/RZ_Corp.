@@ -10,9 +10,9 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 /**
- * Created by Maksim on 12/28/2016.
+ * Created by MadMax on 12/28/2016.
  */
-public class Exp_01 {
+public class Exp_01_SimpleTest {
     WebDriver driver;
     String baseUrl = "http://google.com/";
     String search1 = "cat";
