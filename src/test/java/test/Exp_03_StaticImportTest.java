@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import static org.testng.Assert.assertEquals; // static import
 
 /**
- * Created by MadMax on 1/1/2017.
+ * Created by MadMax on 1/1/2016.
  */
 public class Exp_03_StaticImportTest {
 
