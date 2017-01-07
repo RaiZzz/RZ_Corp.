@@ -10,7 +10,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 /**
- * Created by Maksim on 12/28/2015.
+ * Created by Maksim on 12/28/2016.
  */
 public class Exp_01 {
     WebDriver driver;
