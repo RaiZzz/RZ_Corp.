@@ -3,7 +3,7 @@ package test;
 import org.junit.Test;
 
 /**
- * Created by MadMax on 1/1/2016.
+ * Created by MadMax on 1/1/2017.
  */
 public class Exp_05_PercentCalculationTest {
 
