@@ -15,8 +15,8 @@ public class Exp_04_UserTest {
     @Test
     public void useUser()
     {
-        assertEquals("default username expected", "username", user.getUsername());
-        assertEquals("default password expected", "password", user.getPassword());
+        assertEquals( "username", user.getUsername(),"default username expected");
+        assertEquals( "password", user.getPassword(),"default password expected");
     }
 
     @Test (priority = 1)
